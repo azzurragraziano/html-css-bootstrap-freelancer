@@ -111,3 +111,23 @@ header nav
     text-align: center;
     margin-top: 2rem;
 }
+
+/* contact */
+.ms_info>div
+{
+    border-bottom: 1px solid lightgray;
+    padding: 5px 0;
+}
+
+.ms_info>div:last-child
+{
+    padding: 10px 0 90px;
+}
+
+/* FOOTER */
+footer
+{
+    background-color: var(--secondary-bg-color);
+    color: var(--primary-text-color);
+    padding: 2.5rem 0;
+}
