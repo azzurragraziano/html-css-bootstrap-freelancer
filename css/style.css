@@ -63,6 +63,7 @@ header nav
 {
     max-width: 70%;
     margin: 0 auto;
+    padding: 2rem 0 1rem;
 }
 
 .ms_jumbotron_content
@@ -91,4 +92,16 @@ header nav
 #ms_divider::after
 {
     content: '-';
+}
+
+/* columns */
+.ms_title
+{
+    margin: 1rem 0;
+    text-align: center;
+}
+
+.ms_card
+{
+    background-color: blanchedalmond;
 }
