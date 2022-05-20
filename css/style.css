@@ -36,7 +36,7 @@ section
     padding: 2.5rem 0;
 }
 
-section:nth-of-type(odd)
+section.bg_green
 {
     background-color: var(--primary-bg-color);
     color: var(--primary-text-color);
@@ -44,7 +44,8 @@ section:nth-of-type(odd)
 
 .ms_small_container
 {
-    max-width: 70%;
+    width: 70%;
+    max-width: 1170px;
     margin: 0 auto;
 }
 
@@ -52,6 +53,29 @@ section:nth-of-type(odd)
 {
     margin-bottom: 1rem;
     text-align: center;
+}
+
+.ms_star
+{
+    font-size: 1.5rem;
+}
+
+.ms_star::before,
+.ms_star::after
+{
+    content: '';
+    width: 5rem;
+    height: 4px;
+    background-color: black;
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 10px;
+}
+
+.bg_green .ms_star::before,
+.bg_green .ms_star::after
+{
+    background-color: white;
 }
 
 /* HEADER */
@@ -64,7 +88,7 @@ header
     color: var(--primary-text-color);
 }
 
-.logo
+.brand
 {
     font-size: 20px;
     font-weight: bold;
@@ -90,7 +114,7 @@ header nav
     width: 200px;
 }
 
-.ms_jumbotron li
+.ms_jumbotron_content li
 {
     padding: 0;
 }
@@ -108,26 +132,79 @@ header nav
 /* about*/
 .ms_btn
 {
-    text-align: center;
     margin-top: 2rem;
 }
 
-/* contact */
-.ms_info>div
+#about .ms_btn
 {
-    border-bottom: 1px solid lightgray;
-    padding: 5px 0;
+    text-align: center;
 }
 
-.ms_info>div:last-child
+/* Contact */
+/* form style */
+input.form-control,
+textarea.form-control
 {
-    padding: 10px 0 90px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    font-size: 18px;
+    padding: 10px;
+}
+
+input.form-control:focus,
+textarea.form-control:focus
+{
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    border-bottom: 1px solid lightgray;
+    box-shadow: none;
+}
+
+.ms_btn_color
+{
+    color: #fff;
+    background-color: #1abc9c;
+    border-color: #1abc9c;
 }
 
 /* FOOTER */
 footer
 {
-    background-color: var(--secondary-bg-color);
     color: var(--primary-text-color);
+}
+
+/* footer top */
+.footer-top
+{
     padding: 2.5rem 0;
+    background-color: #3b546d;
+}
+
+.footer-col-content
+{
+    text-align: center;
+}
+
+/* footer bottom */
+.footer-bottom
+{
+    padding: 2.5rem 0;
+    background-color: #2d3e4f;
+}
+
+@media screen and (min-width:992px) {
+
+    .ms_star::before,
+    .ms_star::after
+    {
+        content: '';
+        width: 7rem;
+        height: 4px;
+        background-color: black;
+        display: inline-block;
+        vertical-align: middle;
+        border-radius: 10px;
+    }
 }

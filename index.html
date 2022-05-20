@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>bootstrap</title>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
@@ -18,9 +18,9 @@
         <div class="container">
             <div class="row align-items-center">
 
-                <!-- logo -->
+                <!-- brand -->
                 <div class="col-6">
-                    <div class="logo">
+                    <div class="brand">
                         START BOOTSTRAP
                     </div>
                 </div>
@@ -35,22 +35,22 @@
                         </div>
 
                         <!-- main menu -->
-                        <div class="ms_main_menu d-none d-md-block">
+                        <div class="main_menu d-none d-md-block">
                             <ul>
                                 <li>
-                                    <a href="#">
+                                    <a href="#portfolio">
                                         PORTFOLIO
                                     </a>
                                 </li>
                                 
                                 <li>
-                                    <a href="#">
+                                    <a href="#about">
                                         ABOUT
                                     </a>
                                 </li>
 
                                 <li>
-                                    <a href="#">
+                                    <a href="#contact">
                                         CONTACT
                                     </a>
                                 </li>
@@ -66,50 +66,52 @@
     <main>
 
         <!-- jumbotron -->
-        <section class="ms_jumbotron">
-            <div class="ms_small_container">
-                <div class="container-fluid">
+        <section class="bg_green">
+            <div class="container">
 
-                    <!-- jumbotron content -->
-                    <div class="ms_jumbotron_content">
+                <!-- jumbotron content -->
+                <div class="ms_jumbotron_content">
 
-                        <!-- jumbotron image -->
-                        <figure class="ms_avatar">
-                            <img src="img/avatar.svg" alt="avatar">
-                        </figure>
+                    <!-- jumbotron image -->
+                    <figure class="ms_avatar">
+                        <img src="img/avatar.svg" alt="avatar">
+                    </figure>
 
-                        <!-- jumbotron text -->
-                        <div class="ms_title">
-                            <h2>START BOOTSTRAP</h2>
-                            <span>stellina</span>
+                    <!-- jumbotron text -->
+                    <div class="ms_title">
+                        <h2>START BOOTSTRAP</h2>
+                        <div class="ms_star">
+                            <i class="fa-solid fa-star"></i>
                         </div>
-                        
-                        <ul>
-                            <li>
-                                <a href="#">GRAPHIC ARTIST</a>
-                            </li>
-
-                            <li id="ms_divider">
-                                <a href="#">WEB DESIGNER</a>
-                            </li>
-
-                            <li>
-                                <a href="#">ILLUSTRATOR</a>
-                            </li>
-                        </ul>
                     </div>
+                        
+                    <ul>
+                        <li>
+                            <a href="#">GRAPHIC ARTIST</a>
+                        </li>
+
+                        <li id="ms_divider">
+                            <a href="#">WEB DESIGNER</a>
+                        </li>
+
+                        <li>
+                            <a href="#">ILLUSTRATOR</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </section>
 
         <!-- portfolio -->
-        <section>
+        <section id="portfolio">
             <div class="container">
 
                 <!-- title -->
                 <div class="ms_title">
                     <h2>PORTFOLIO</h2>
-                    <span>stellina</span>
+                    <div class="ms_star">
+                        <i class="fa-solid fa-star"></i>
+                    </div>
                 </div>
 
                 <!-- columns -->
@@ -118,42 +120,42 @@
                     <!-- first col -->
                     <div class="col">
                         <div class="ms_card">
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit optio neque vero saepe ex, voluptate cumque ut enim vitae dolor voluptas quidem! Itaque, quisquam similique ipsam laboriosam alias eaque reiciendis?
+                            <img src="img/cabin.png" alt="">
                         </div>
                     </div>
 
                     <!-- second col -->
                     <div class="col">
                         <div class="ms_card">
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit optio neque vero saepe ex, voluptate cumque ut enim vitae dolor voluptas quidem! Itaque, quisquam similique ipsam laboriosam alias eaque reiciendis?
+                            <img src="img/cake.png" alt="">
                         </div>
                     </div>
 
                     <!-- third col -->
                     <div class="col">
                         <div class="ms_card">
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit optio neque vero saepe ex, voluptate cumque ut enim vitae dolor voluptas quidem! Itaque, quisquam similique ipsam laboriosam alias eaque reiciendis?
+                            <img src="img/circus.png" alt="">
                         </div>
                     </div>
 
                     <!-- fourth col -->
                     <div class="col">
                         <div class="ms_card">
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit optio neque vero saepe ex, voluptate cumque ut enim vitae dolor voluptas quidem! Itaque, quisquam similique ipsam laboriosam alias eaque reiciendis?
+                            <img src="img/game.png" alt="">
                         </div>
                     </div>
 
                     <!-- fifth col -->
                     <div class="col">
                         <div class="ms_card">
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit optio neque vero saepe ex, voluptate cumque ut enim vitae dolor voluptas quidem! Itaque, quisquam similique ipsam laboriosam alias eaque reiciendis?
+                            <img src="img/safe.png" alt="">
                         </div>
                     </div>
 
                     <!-- sixth col -->
                     <div class="col">
                         <div class="ms_card">
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit optio neque vero saepe ex, voluptate cumque ut enim vitae dolor voluptas quidem! Itaque, quisquam similique ipsam laboriosam alias eaque reiciendis?
+                            <img src="img/submarine.png" alt="">
                         </div>
                     </div>
                 </div>
@@ -161,36 +163,44 @@
         </section>
 
         <!-- about -->
-        <section>
+        <section id="about" class="bg_green">
             <div class="ms_small_container">
                 <div class="container-fluid">
                         
                     <!-- title -->
                     <div class="ms_title">
                         <h2>ABOUT</h2>
-                        <span>stellina</span>
+                        <div class="ms_star">
+                            <i class="fa-solid fa-star"></i>
+                        </div>
                     </div>
 
                     <!-- columns -->
-                    <div class="row gy-3 row-cols-1 row-cols-md-2">
+                    <div class="row g-3 row-cols-1 row-cols-md-2">
 
                         <!-- first col -->
                         <div class="col">
                             <div class="ms_card">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque magni, non quidem vero quasi dicta exercitationem autem vel natus repellat expedita eveniet ipsam facere excepturi minima itaque debitis doloremque a.
+                                Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization
                             </div>
                         </div>
 
                         <!-- second col -->
                         <div class="col">
                             <div class="ms_card">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque magni, non quidem vero quasi dicta exercitationem autem vel natus repellat expedita eveniet ipsam facere excepturi minima itaque debitis doloremque a.
+                                Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!
                             </div>
                         </div>
                     </div>
 
                     <div class="ms_btn">
-                        button
+                        <a href="#" class="btn btn-outline-light">
+                            <span>
+                                <i class="fa-solid fa-download"></i>
+                            </span>
+
+                            Download
+                        </a>
                     </div>
 
                 </div>
@@ -199,26 +209,44 @@
         </section>
     
         <!-- contact -->
-        <section>
+        <section id="contact">
             <div class="ms_small_container">
                 <div class="container-fluid">
                     
                     <!-- title -->
                     <div class="ms_title">
                         <h2>CONTACT ME</h2>
-                        <span>stellina</span>
+                        <div class="ms_star">
+                            <i class="fa-solid fa-star"></i>
+                        </div>
                     </div>
 
                     <!-- info -->
-                    <div class="ms_info">
-                        <div>Name</div>
-                        <div>Email</div>
-                        <div>Phone Number</div>
-                        <div>Message</div>
-                    </div>
+                    <form>
+                        <div class="mb-3">
+                            <label for="name" class="form-label visually-hidden">Name</label>
+                            <input type="text" class="form-control" id="name" placeholder="Name">
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="email-address" class="form-label visually-hidden">Email address</label>
+                            <input type="email" class="form-control" id="email-address" placeholder="Email Address">
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="phone-number" class="form-label visually-hidden">Phone Number</label>
+                            <input type="tel" class="form-control" id="phone-number" placeholder="Phone Number">
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="message" class="form-label visually-hidden">Message</label>
+                            <textarea class="form-control" id="message" rows="3" placeholder="Message"></textarea>
+                        </div>
+                        
+                      </form>
 
                     <div class="ms_btn">
-                        button
+                        <button type="button" class="btn ms_btn_color">Send</button>
                     </div>
 
                 </div>
@@ -229,9 +257,45 @@
 
     <!-- FOOTER -->
     <footer>
-        <div class="container">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, illum accusantium rem quisquam quo culpa ducimus libero impedit vel eum sed? Iusto eum deleniti ea officia animi optio dolorem vero?
-            Harum eius dignissimos enim aspernatur omnis? Officiis, est animi ipsam placeat omnis commodi at natus labore, voluptatem quaerat distinctio aperiam non dolorem eum repellat beatae autem dolores eveniet facere. Aliquam!
+
+        <!-- footer top -->
+        <div class="footer-top">
+           <div class="container">
+                <div class="row row-cols-1 row-cols-md-3 gy-5">
+
+                    <!-- first col -->
+                    <div class="col">
+                        <div class="footer-col-content">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet laborum magni error autem sint distinctio est harum illum molestiae rerum cum excepturi reiciendis optio dignissimos, accusantium exercitationem vero, pariatur quidem.
+                            Quis officia quibusdam illum ducimus laboriosam vitae sed omnis, dolorem distinctio inventore soluta enim nesciunt, sint animi recusandae at temporibus veniam. Tempore debitis id laborum cum maxime est molestiae nihil.
+                        </div>
+                    </div>
+                    
+                    <!-- second col -->
+                    <div class="col">
+                        <div class="footer-col-content">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet laborum magni error autem sint distinctio est harum illum molestiae rerum cum excepturi reiciendis optio dignissimos, accusantium exercitationem vero, pariatur quidem.
+                            Quis officia quibusdam illum ducimus laboriosam vitae sed omnis, dolorem distinctio inventore soluta enim nesciunt, sint animi recusandae at temporibus veniam. Tempore debitis id laborum cum maxime est molestiae nihil.
+                        </div>
+                    </div>
+
+                    <!-- third col -->
+                    <div class="col">
+                        <div class="footer-col-content">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet laborum magni error autem sint distinctio est harum illum molestiae rerum cum excepturi reiciendis optio dignissimos, accusantium exercitationem vero, pariatur quidem.
+                            Quis officia quibusdam illum ducimus laboriosam vitae sed omnis, dolorem distinctio inventore soluta enim nesciunt, sint animi recusandae at temporibus veniam. Tempore debitis id laborum cum maxime est molestiae nihil.
+                        </div>
+                    </div>
+
+                </div>
+           </div>                
+        </div>
+
+        <!-- footer bottom -->
+        <div class="footer-bottom text-center">
+            <div class="container">
+                Copyright &copy; Your Website 2019
+            </div>
         </div>
     </footer>
 </body>
