@@ -55,6 +55,7 @@ section.bg_green
     text-align: center;
 }
 
+/* star */
 .ms_star
 {
     font-size: 1.5rem;
@@ -140,8 +141,7 @@ header nav
     text-align: center;
 }
 
-/* Contact */
-/* form style */
+/* Contact form style */
 input.form-control,
 textarea.form-control
 {
@@ -186,7 +186,6 @@ footer
 {
     text-align: center;
 }
-
 
 .ms_social_icons
 {
